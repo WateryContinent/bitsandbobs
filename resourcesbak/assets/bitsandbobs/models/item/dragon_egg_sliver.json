@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "bitsandbobs:item/dragon_egg_sliver"
-  }
-}
