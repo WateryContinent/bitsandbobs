@@ -1,0 +1,38 @@
+{
+  "itemGroup.bitsandbobs": "Example Mod Tab",
+  "block.bitsandbobs.example_block": "Example Block",
+  "item.bitsandbobs.example_item": "Example Item",
+
+  "bitsandbobs.configuration.title": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.section.bitsandbobs.common.toml": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.section.bitsandbobs.common.toml.title": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.items": "Item List",
+  "bitsandbobs.configuration.logDirtBlock": "Log Dirt Block",
+  "bitsandbobs.configuration.magicNumberIntroduction": "Magic Number Text",
+  "bitsandbobs.configuration.magicNumber": "Magic Number",
+
+  "item.bitsandbobs.cocoa_briquette": "Cocoa Briquette",
+  "item.bitsandbobs.dragon_egg_sliver": "Sliver of Dragon Egg",
+  "item.bitsandbobs.mint_seeds": "Mint Seeds",
+  "item.bitsandbobs.mint": "Mint Leaves",
+  "item.bitsandbobs.crushed_mint": "Crushed Mint Leaves",
+  "item.bitsandbobs.mint_extract_bucket": "Bucket of Mint Extract",
+  "item.bitsandbobs.mint_candy": "Mint Candy",
+  "item.bitsandbobs.fired_record": "Fired Unwritten Record",
+  "item.bitsandbobs.unfired_record": "Unfired Record",
+  "item.bitsandbobs.the_end_music_disc": "The End",
+  "item.bitsandbobs.charcoal_dust": "Charcoal Dust",
+  "item.bitsandbobs.mint_cake_base": "Mint Cake Base",
+  "item.bitsandbobs.mint_cake": "Mint Cake",
+  "item.bitsandbobs.mint_cake_slice": "Mint Cake Slice",
+  "item.bitsandbobs.the_end.desc": "The End - C418",
+
+  "effect.bitsandbobs.fresh": "Fresh",
+
+  "block.bitsandbobs.mint_crop": "Mint Leaves",
+  "block.bitsandbobs.printing_press": "Printing Press",
+
+  "fluid_type.bitsandbobs.mint_extract": "Mint Extract",
+
+  "creative.bitsandbobs.bits_and_bobs": "Bits and Bobs"
+}

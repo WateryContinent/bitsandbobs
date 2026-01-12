@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bitsandbobs:block/mint_crop_stage0"
+    },
+    "age=1": {
+      "model": "bitsandbobs:block/mint_crop_stage1"
+    },
+    "age=2": {
+      "model": "bitsandbobs:block/mint_crop_stage2"
+    },
+    "age=3": {
+      "model": "bitsandbobs:block/mint_crop_stage3"
+    },
+    "age=4": {
+      "model": "bitsandbobs:block/mint_crop_stage4"
+    }
+  }
+}

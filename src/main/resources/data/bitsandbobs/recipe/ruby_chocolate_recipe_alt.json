@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "amount": 250,
+      "id": "create_dragons_plus:dragon_breath"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "type": "fluid_tag",
+      "amount": 250,
+      "fluid_tag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_confectionery:ruby_chocolate"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "create_confectionery:cocoa_powder"
+    }
+  ],
+  "results": [
+    {
+      "id": "bitsandbobs:cocoa_briquette"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bitsandbobs:item/the_end_music_disc"
+  }
+}

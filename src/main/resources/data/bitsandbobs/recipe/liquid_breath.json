@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "createaddition:biomass"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "bitsandbobs:mint_extract"
+    },
+    {
+      "item": "bitsandbobs:dragon_egg_sliver"
+    },
+    {
+      "item": "bitsandbobs:dragon_egg_sliver"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "create_dragons_plus:dragon_breath"
+    }
+  ]
+}

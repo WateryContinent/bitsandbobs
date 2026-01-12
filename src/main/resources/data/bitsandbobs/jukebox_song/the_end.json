@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.bitsandbobs.the_end.desc"
+  },
+  "length_in_seconds": 603.0,
+  "sound_event": "bitsandbobs:the_end"
+}

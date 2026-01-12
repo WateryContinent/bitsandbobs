@@ -1,0 +1,17 @@
+{
+  "itemGroup.bitsandbobs": "Example Mod Tab",
+  "block.bitsandbobs.example_block": "Example Block",
+  "item.bitsandbobs.example_item": "Example Item",
+
+  "bitsandbobs.configuration.title": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.section.bitsandbobs.common.toml": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.section.bitsandbobs.common.toml.title": "Bits and Bobs Configs",
+  "bitsandbobs.configuration.items": "Item List",
+  "bitsandbobs.configuration.logDirtBlock": "Log Dirt Block",
+  "bitsandbobs.configuration.magicNumberIntroduction": "Magic Number Text",
+  "bitsandbobs.configuration.magicNumber": "Magic Number",
+
+  "item.bitsandbobs.cocoa_briquette": "Cocoa Briquette",
+  "item.bitsandbobs.dragon_egg_sliver": "Sliver of Dragon Egg",
+  "creative.bitsandbobs.bits_and_bobs": "Bits and Bobs"
+}

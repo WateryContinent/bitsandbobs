@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "bitsandbobs:crushed_mint"
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "id": "bitsandbobs:mint_extract"
+    }
+  ]
+}
