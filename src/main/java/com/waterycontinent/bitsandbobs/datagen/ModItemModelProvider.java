@@ -27,5 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MINT_CAKE_BASE.get());
         basicItem(ModItems.MINT_CAKE.get());
         basicItem(ModItems.MINT_CAKE_SLICE.get());
+        basicItem(ModItems.UNFIRED_CLARBON.get());
+        basicItem(ModItems.CLARBON.get());
     }
 }

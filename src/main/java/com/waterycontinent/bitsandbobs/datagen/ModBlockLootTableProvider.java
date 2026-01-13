@@ -3,6 +3,9 @@ package com.waterycontinent.bitsandbobs.datagen;
 import com.waterycontinent.bitsandbobs.block.MintCropBlock;
 import com.waterycontinent.bitsandbobs.block.ModBlocks;
 import com.waterycontinent.bitsandbobs.item.ModItems;
+import net.minecraft.advancements.critereon.EnchantmentPredicate;
+import net.minecraft.advancements.critereon.ItemPredicate;
+import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
@@ -13,12 +16,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.MatchTool;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.Set;
@@ -28,6 +34,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags(), registries);
     }
 
+
     @Override
     protected void generate() {
 
@@ -36,6 +43,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(MintCropBlock.AGE, 4));
         this.add(ModBlocks.MINT_CROP.get(), this.createCropDrops(ModBlocks.MINT_CROP.get(),
                 ModItems.MINT.get(),ModItems.MINT_SEEDS.get(), lootItemConditionBuilder));
+
+        this.add(ModBlocks.MINT_CAKE_BLOCK.get(), noDrop());
     }
 
 

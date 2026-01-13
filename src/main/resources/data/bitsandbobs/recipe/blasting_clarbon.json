@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "bitsandbobs:unfired_clarbon"
+  },
+  "result": {
+    "count": 1,
+    "id": "bitsandbobs:clarbon"
+  }
+}

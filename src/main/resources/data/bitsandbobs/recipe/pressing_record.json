@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "bitsandbobs:unfired_clarbon"
+    }
+  ],
+  "results": [
+    {
+      "id": "bitsandbobs:unfired_record"
+    }
+  ]
+}

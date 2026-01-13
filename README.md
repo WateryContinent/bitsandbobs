@@ -9,7 +9,7 @@ feel free to use this in your modpacks if and as you see fit.
 **Feel free to open a pull request to either translate the mod or to add another feature! All new ideas and help is appreciated!**
 
 
-### Discord - [R5Valkyrie](https://discord.gg/r5valkyrie)
+### Discord for Minecraft Server - [R5Valkyrie](https://discord.gg/r5valkyrie)
 
 
 ## Download

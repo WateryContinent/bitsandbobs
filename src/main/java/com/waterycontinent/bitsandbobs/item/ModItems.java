@@ -48,8 +48,14 @@ public class ModItems {
     public static final DeferredItem<Item> MINT_CAKE_BASE = ITEMS.register("mint_cake_base",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> MINT_CAKE = ITEMS.register("mint_cake",
+    public static final DeferredItem<Item> CLARBON = ITEMS.register("clarbon",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> UNFIRED_CLARBON = ITEMS.register("unfired_clarbon",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MINT_CAKE = ITEMS.register("mint_cake",
+            () -> new ItemNameBlockItem(ModBlocks.MINT_CAKE_BLOCK.get(), new Item.Properties()));
 
     public static final DeferredItem<Item> MINT_CAKE_SLICE = ITEMS.register("mint_cake_slice",
             () -> new Item(new Item.Properties().food(FoodItem.MINT_CAKE_SLICE)));

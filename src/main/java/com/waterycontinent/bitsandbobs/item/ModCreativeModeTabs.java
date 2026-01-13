@@ -25,7 +25,7 @@ public class ModCreativeModeTabs {
                      output.accept(ModItems.MINT);
                      output.accept(ModItems.CRUSHED_MINT);
                      output.accept(ModItems.MINT_EXTRACT_BUCKET);
-                     output.accept(ModItems.MINT_CANDY);
+                     //output.accept(ModItems.MINT_CANDY);
                      output.accept(ModItems.UNFIRED_RECORD);
                      output.accept(ModItems.FIRED_RECORD);
                      output.accept(ModItems.THE_END_MUSIC_DISC);
@@ -33,6 +33,10 @@ public class ModCreativeModeTabs {
                      output.accept(ModItems.MINT_CAKE_BASE);
                      output.accept(ModItems.MINT_CAKE);
                      output.accept(ModItems.MINT_CAKE_SLICE);
+                     output.accept(ModItems.CLARBON);
+                     output.accept(ModItems.UNFIRED_CLARBON);
+
+                     output.accept(ModBlocks.MINT_CAKE_BLOCK);
                     }).build());
 
 
