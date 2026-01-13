@@ -1,0 +1,25 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "group": "record",
+  "pattern": [
+  
+    " X ",
+    "XOX",
+    " X "
+  ],
+  
+  "key": {
+    "X": {
+      "item": "minecraft:ender_eye"
+    },
+    "O": {
+      "item": "bitsandbobs:fired_record"
+    }    
+  },
+  
+  
+  "result": {
+    "id": "bitsandbobs:the_end_music_disc"
+  }
+}

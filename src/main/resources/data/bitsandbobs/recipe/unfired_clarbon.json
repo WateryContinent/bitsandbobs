@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "bitsandbobs:charcoal_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "bitsandbobs:unfired_clarbon"
+    }
+  ]
+}
