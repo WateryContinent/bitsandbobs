@@ -23,6 +23,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
     makeCrop(((CropBlock) ModBlocks.MINT_CROP.get()),"mint_crop_stage", "mint_crop_stage");
+    simpleBlockWithItem(ModBlocks.BLOCK_OF_CLARBON.get(), cubeAll(ModBlocks.BLOCK_OF_CLARBON.get()));
 
     }
 
@@ -42,4 +43,3 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
 }
-

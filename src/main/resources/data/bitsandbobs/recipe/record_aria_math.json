@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "record",
+  "pattern": [
+    " E ",
+    "ERE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "R": {
+      "item": "bitsandbobs:fired_record"
+    }
+  },
+  "result": {
+    "id": "bitsandbobs:aria_math_music_disc"
+  }
+}

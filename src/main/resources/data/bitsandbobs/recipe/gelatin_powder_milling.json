@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "bitsandbobs:gelatin_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "bitsandbobs:gelatin_powder",
+      "count": 2
+    }
+  ],
+  "processing_time": 100
+}

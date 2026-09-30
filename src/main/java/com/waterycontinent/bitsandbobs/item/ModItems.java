@@ -46,10 +46,22 @@ public class ModItems {
     public static final DeferredItem<Item> THE_END_MUSIC_DISC = ITEMS.register("the_end_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.THE_END_KEY).rarity(Rarity.EPIC).stacksTo(1)));
 
+    public static final DeferredItem<Item> ARIA_MATH_MUSIC_DISC = ITEMS.register("aria_math_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ARIA_MATH_KEY).rarity(Rarity.EPIC).stacksTo(1)));
+
     public static final DeferredItem<Item> MINT_CAKE_BASE = ITEMS.register("mint_cake_base",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> CLARBON = ITEMS.register("clarbon",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<BlockItem> BLOCK_OF_CLARBON = ITEMS.register("block_of_clarbon",
+            () -> new BlockItem(ModBlocks.BLOCK_OF_CLARBON.get(), new Item.Properties()));
+    public static final DeferredItem<Item> WET_GELATIN = ITEMS.register("wet_gelatin",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GELATIN_SHEET = ITEMS.register("gelatin_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GELATIN_POWDER = ITEMS.register("gelatin_powder",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> UNFIRED_CLARBON = ITEMS.register("unfired_clarbon",

@@ -29,5 +29,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MINT_CAKE_SLICE.get());
         basicItem(ModItems.UNFIRED_CLARBON.get());
         basicItem(ModItems.CLARBON.get());
+        basicItem(ModItems.WET_GELATIN.get());
+        basicItem(ModItems.GELATIN_SHEET.get());
+        basicItem(ModItems.GELATIN_POWDER.get());
+        basicItem(ModItems.ARIA_MATH_MUSIC_DISC.get());
     }
 }

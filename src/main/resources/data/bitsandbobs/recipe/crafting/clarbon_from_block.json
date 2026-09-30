@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bitsandbobs:block_of_clarbon"
+    }
+  ],
+  "result": {
+    "id": "bitsandbobs:clarbon",
+    "count": 9
+  }
+}

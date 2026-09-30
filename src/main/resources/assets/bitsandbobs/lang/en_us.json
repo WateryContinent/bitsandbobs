@@ -45,5 +45,11 @@
   "creative.bitsandbobs.bits_and_bobs": "Bits and Bobs",
   "item.bitsandbobs.drink_container": "Drink Container",
   "item.bitsandbobs.chocolate_mint_milkshake": "Chocolate Mint Milkshake",
-  "item.bitsandbobs.watermelon_slushie": "Watermelon Slushie"
+  "item.bitsandbobs.watermelon_slushie": "Watermelon Slushie",
+  "block.bitsandbobs.block_of_clarbon": "Block of Clarbon",
+  "item.bitsandbobs.wet_gelatin": "Wet Gelatin",
+  "item.bitsandbobs.gelatin_sheet": "Gelatin Sheet",
+  "item.bitsandbobs.gelatin_powder": "Gelatin Powder",
+  "item.bitsandbobs.aria_math_music_disc": "Music Disc",
+  "item.bitsandbobs.aria_math.desc": "C418 - Aria Math"
 }

@@ -49,6 +49,9 @@ public class ModBlocks {
     public static final DeferredBlock<BeverageMachineBlock> BEVERAGE_MACHINE = BLOCKS.register("beverage_machine",
             () -> new BeverageMachineBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3.5F).noOcclusion().requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> BLOCK_OF_CLARBON = BLOCKS.register("block_of_clarbon",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
     // Registers the block
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

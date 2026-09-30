@@ -46,6 +46,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.add(ModBlocks.MINT_CAKE_BLOCK.get(), noDrop());
         this.dropSelf(ModBlocks.BEVERAGE_MACHINE.get());
+        this.dropSelf(ModBlocks.BLOCK_OF_CLARBON.get());
     }
 
 

@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "bitsandbobs:wet_gelatin"
+    },
+    {
+      "item": "bitsandbobs:wet_gelatin"
+    }
+  ],
+  "results": [
+    {
+      "id": "bitsandbobs:gelatin_sheet",
+      "count": 1
+    }
+  ]
+}

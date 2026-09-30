@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bitsandbobs:block/block_of_clarbon"
+    }
+  }
+}

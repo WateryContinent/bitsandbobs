@@ -29,11 +29,16 @@ public class ModCreativeModeTabs {
                      output.accept(ModItems.UNFIRED_RECORD);
                      output.accept(ModItems.FIRED_RECORD);
                      output.accept(ModItems.THE_END_MUSIC_DISC);
+                     output.accept(ModItems.ARIA_MATH_MUSIC_DISC);
                      output.accept(ModItems.CHARCOAL_DUST);
                      output.accept(ModItems.MINT_CAKE_BASE);
                      output.accept(ModItems.MINT_CAKE);
                      output.accept(ModItems.MINT_CAKE_SLICE);
                      output.accept(ModItems.CLARBON);
+                     output.accept(ModItems.BLOCK_OF_CLARBON);
+                     output.accept(ModItems.WET_GELATIN);
+                     output.accept(ModItems.GELATIN_SHEET);
+                     output.accept(ModItems.GELATIN_POWDER);
                      output.accept(ModItems.UNFIRED_CLARBON);
                      output.accept(ModItems.BEVERAGE_MACHINE);
                      output.accept(ModItems.DRINK_CONTAINER);

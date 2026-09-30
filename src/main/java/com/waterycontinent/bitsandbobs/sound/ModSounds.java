@@ -23,6 +23,8 @@ public class ModSounds {
 
     public static final Supplier<SoundEvent> THE_END = registerSoundEvent("the_end");
     public static final ResourceKey<JukeboxSong> THE_END_KEY = createSong("the_end");
+    public static final Supplier<SoundEvent> ARIA_MATH = registerSoundEvent("aria_math");
+    public static final ResourceKey<JukeboxSong> ARIA_MATH_KEY = createSong("aria_math");
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(BitsandBobs.MODID, name);
