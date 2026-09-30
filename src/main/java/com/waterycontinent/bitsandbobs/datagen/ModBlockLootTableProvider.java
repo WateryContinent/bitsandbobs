@@ -45,6 +45,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 ModItems.MINT.get(),ModItems.MINT_SEEDS.get(), lootItemConditionBuilder));
 
         this.add(ModBlocks.MINT_CAKE_BLOCK.get(), noDrop());
+        this.dropSelf(ModBlocks.BEVERAGE_MACHINE.get());
     }
 
 

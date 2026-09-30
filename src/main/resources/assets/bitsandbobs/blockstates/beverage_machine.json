@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,lit=false,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_off"
+    },
+    "facing=north,lit=true,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_on"
+    },
+    "facing=north,lit=false,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_cooling"
+    },
+    "facing=north,lit=true,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_off"
+    },
+    "facing=east,lit=false,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 90
+    },
+    "facing=east,lit=true,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_on",
+      "y": 90
+    },
+    "facing=east,lit=false,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_cooling",
+      "y": 90
+    },
+    "facing=east,lit=true,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 90
+    },
+    "facing=south,lit=false,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 180
+    },
+    "facing=south,lit=true,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_on",
+      "y": 180
+    },
+    "facing=south,lit=false,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_cooling",
+      "y": 180
+    },
+    "facing=south,lit=true,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 180
+    },
+    "facing=west,lit=false,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 270
+    },
+    "facing=west,lit=true,cooling=false": {
+      "model": "bitsandbobs:block/beverage_machine_on",
+      "y": 270
+    },
+    "facing=west,lit=false,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_cooling",
+      "y": 270
+    },
+    "facing=west,lit=true,cooling=true": {
+      "model": "bitsandbobs:block/beverage_machine_off",
+      "y": 270
+    }
+  }
+}

@@ -6,16 +6,17 @@
       "item": "minecraft:sugar"
     },
     {
-      "amount": 250,
-      "id": "create_dragons_plus:dragon_breath"
+      "type": "neoforge:single",
+      "fluid": "create_dragons_plus:dragon_breath",
+      "amount": 250
     },
     {
       "item": "minecraft:cocoa_beans"
     },
     {
-      "type": "fluid_tag",
-      "amount": 250,
-      "fluid_tag": "c:milk"
+      "type": "neoforge:tag",
+      "tag": "c:milk",
+      "amount": 250
     }
   ],
   "results": [

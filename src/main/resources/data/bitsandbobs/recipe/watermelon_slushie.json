@@ -1,0 +1,18 @@
+{
+  "type": "bitsandbobs:beverage_making",
+  "first_ingredient": {
+    "item": "minecraft:melon_slice"
+  },
+  "second_ingredient": {
+    "item": "minecraft:ice"
+  },
+  "container": {
+    "item": "bitsandbobs:drink_container"
+  },
+  "result": {
+    "id": "bitsandbobs:watermelon_slushie",
+    "count": 1
+  },
+  "processing_time": 100,
+  "temperature": "cold"
+}

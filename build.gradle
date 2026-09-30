@@ -196,3 +196,9 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// Opt-in integration tests run inside Minecraft; excluded from normal mod builds.
+if (project.hasProperty('includeGameTests')) {
+    sourceSets.main.java.srcDir 'src/gametest/java'
+    sourceSets.main.resources.srcDir 'src/gametest/resources'
+}

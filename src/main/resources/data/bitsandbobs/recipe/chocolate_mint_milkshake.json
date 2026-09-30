@@ -1,0 +1,25 @@
+{
+  "type": "bitsandbobs:beverage_making",
+  "first_ingredient": {
+    "item": "bitsandbobs:crushed_mint"
+  },
+  "second_ingredient": {
+    "item": "create:bar_of_chocolate"
+  },
+  "third_ingredient": {
+    "item": "minecraft:ice"
+  },
+  "container": {
+    "item": "bitsandbobs:drink_container"
+  },
+  "first_fluid": {
+    "fluid": "minecraft:milk",
+    "amount": 250
+  },
+  "result": {
+    "id": "bitsandbobs:chocolate_mint_milkshake",
+    "count": 1
+  },
+  "processing_time": 100,
+  "temperature": "cold"
+}

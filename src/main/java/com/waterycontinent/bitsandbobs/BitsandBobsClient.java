@@ -1,6 +1,8 @@
 package com.waterycontinent.bitsandbobs;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -9,6 +11,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import com.waterycontinent.bitsandbobs.block.ModBlocks;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = BitsandBobs.MODID, dist = Dist.CLIENT)
@@ -24,6 +27,7 @@ public class BitsandBobsClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
+        event.enqueueWork(() -> ItemBlockRenderTypes.setRenderLayer(ModBlocks.BEVERAGE_MACHINE.get(), RenderType.translucent()));
         // Some client setup code
         BitsandBobs.LOGGER.info("HELLO FROM CLIENT SETUP");
         BitsandBobs.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());

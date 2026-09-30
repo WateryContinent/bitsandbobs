@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    ".O ",
+    "ISF"
+  ],
+  "key": {
+    "#": {"item": "minecraft:hopper"},
+    ".": {"item": "minecraft:iron_nugget"},
+    "O": {"item": "minecraft:oak_log"},
+    "I": {"item": "bitsandbobs:drink_container"},
+    "S": {"item": "minecraft:stripped_spruce_log"},
+    "F": {"item": "minecraft:furnace"}
+  },
+  "result": {"id": "bitsandbobs:beverage_machine", "count": 1}
+}

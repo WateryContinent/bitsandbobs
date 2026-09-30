@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bitsandbobs:block/mint_extract"
+    }
+  }
+}

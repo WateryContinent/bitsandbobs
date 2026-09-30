@@ -33,7 +33,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class MintCakeBlock extends Block {
-    public static final MapCodec<net.minecraft.world.level.block.CakeBlock> CODEC = simpleCodec(net.minecraft.world.level.block.CakeBlock::new);
+    public static final MapCodec<MintCakeBlock> CODEC = simpleCodec(MintCakeBlock::new);
     public static final int MAX_BITES = 6;
     public static final IntegerProperty BITES = BlockStateProperties.BITES;
     public static final int FULL_CAKE_SIGNAL = getOutputSignal(0);
@@ -50,7 +50,7 @@ public class MintCakeBlock extends Block {
     };
 
     @Override
-    public MapCodec<net.minecraft.world.level.block.CakeBlock> codec() {
+    public MapCodec<MintCakeBlock> codec() {
         return CODEC;
     }
 

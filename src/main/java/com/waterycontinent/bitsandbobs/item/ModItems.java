@@ -5,6 +5,7 @@ import com.waterycontinent.bitsandbobs.block.ModBlocks;
 import com.waterycontinent.bitsandbobs.item.custom.*;
 import com.waterycontinent.bitsandbobs.sound.ModSounds;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
@@ -59,6 +60,16 @@ public class ModItems {
 
     public static final DeferredItem<Item> MINT_CAKE_SLICE = ITEMS.register("mint_cake_slice",
             () -> new Item(new Item.Properties().food(FoodItem.MINT_CAKE_SLICE)));
+
+    public static final DeferredItem<BlockItem> BEVERAGE_MACHINE = ITEMS.register("beverage_machine",
+            () -> new BlockItem(ModBlocks.BEVERAGE_MACHINE.get(), new Item.Properties()));
+
+    public static final DeferredItem<Item> DRINK_CONTAINER = ITEMS.register("drink_container",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> CHOCOLATE_MINT_MILKSHAKE = ITEMS.register("chocolate_mint_milkshake",
+            () -> new BeverageItem(new Item.Properties().stacksTo(1).food(FoodItem.CHOCOLATE_MINT_MILKSHAKE)));
+    public static final DeferredItem<Item> WATERMELON_SLUSHIE = ITEMS.register("watermelon_slushie",
+            () -> new BeverageItem(new Item.Properties().stacksTo(1).food(FoodItem.WATERMELON_SLUSHIE)));
 
 
     // USED TO MAKE BUCKETS OF FLUIDS

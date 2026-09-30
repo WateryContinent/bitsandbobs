@@ -17,7 +17,7 @@ import net.neoforged.neoforge.fluids.FluidType;
 @EventBusSubscriber(modid = BitsandBobs.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class MintExtractFluidType extends FluidType {
 	public MintExtractFluidType() {
-		super(Properties.create().fallDistanceModifier(0F).canExtinguish(true).canSwim(false).canDrown(false).supportsBoating(true).canHydrate(false).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
+		super(Properties.create().fallDistanceModifier(0F).canExtinguish(false).canSwim(false).canDrown(false).supportsBoating(true).canHydrate(false).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
 				.sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 

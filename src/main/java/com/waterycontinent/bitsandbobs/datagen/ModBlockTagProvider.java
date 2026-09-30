@@ -19,7 +19,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(BlockTags.MINEABLE_WITH_PICKAXE); // Remove semi colon is adding onto
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.BEVERAGE_MACHINE.get());
                 //.add(ModBlocks.BISMUTH_BLOCK.get())
                 //.add(ModBlocks.BISMUTH_ORE.get())
                 //.add(ModBlocks.BISMUTH_LAMP.get())

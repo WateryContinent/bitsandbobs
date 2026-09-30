@@ -1,12 +1,15 @@
 package com.waterycontinent.bitsandbobs;
 
 import com.waterycontinent.bitsandbobs.block.ModBlocks;
+import com.waterycontinent.bitsandbobs.block.entity.ModBlockEntities;
 import com.waterycontinent.bitsandbobs.effect.ModEffects;
 import com.waterycontinent.bitsandbobs.fluid.ModFluid;
 import com.waterycontinent.bitsandbobs.fluid.ModFluidTypes;
 import com.waterycontinent.bitsandbobs.fluid.MintExtractEffects;
 import com.waterycontinent.bitsandbobs.item.ModCreativeModeTabs;
 import com.waterycontinent.bitsandbobs.item.ModItems;
+import com.waterycontinent.bitsandbobs.menu.ModMenuTypes;
+import com.waterycontinent.bitsandbobs.recipe.ModRecipes;
 import com.waterycontinent.bitsandbobs.sound.ModSounds;
 import org.slf4j.Logger;
 
@@ -56,8 +59,11 @@ public class BitsandBobs {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public BitsandBobs(IEventBus modEventBus, ModContainer modContainer) {
+        // Enable the built-in milk fluid and the milk bucket fluid capability.
+        net.neoforged.neoforge.common.NeoForgeMod.enableMilkFluid();
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::registerCapabilities);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (BitsandBobs) to respond directly to events.
@@ -71,6 +77,9 @@ public class BitsandBobs {
         ModEffects.register(modEventBus);
         ModFluidTypes.register(modEventBus);
         ModFluid.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
         ModSounds.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -78,6 +87,13 @@ public class BitsandBobs {
 
     private void commonSetup(FMLCommonSetupEvent event) {
 
+    }
+
+    private void registerCapabilities(net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent event) {
+        // NeoForge automatically wraps plain BucketItem instances, not subclasses.
+        event.registerItem(net.neoforged.neoforge.capabilities.Capabilities.FluidHandler.ITEM,
+                (stack, context) -> new net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper(stack),
+                ModItems.MINT_EXTRACT_BUCKET.get());
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

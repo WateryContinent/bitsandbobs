@@ -2,7 +2,6 @@
   "itemGroup.bitsandbobs": "Example Mod Tab",
   "block.bitsandbobs.example_block": "Example Block",
   "item.bitsandbobs.example_item": "Example Item",
-
   "bitsandbobs.configuration.title": "Bits and Bobs Configs",
   "bitsandbobs.configuration.section.bitsandbobs.common.toml": "Bits and Bobs Configs",
   "bitsandbobs.configuration.section.bitsandbobs.common.toml.title": "Bits and Bobs Configs",
@@ -10,7 +9,6 @@
   "bitsandbobs.configuration.logDirtBlock": "Log Dirt Block",
   "bitsandbobs.configuration.magicNumberIntroduction": "Magic Number Text",
   "bitsandbobs.configuration.magicNumber": "Magic Number",
-
   "item.bitsandbobs.cocoa_briquette": "Cocoa Briquette",
   "item.bitsandbobs.dragon_egg_sliver": "Sliver of Dragon Egg",
   "item.bitsandbobs.mint_seeds": "Mint Seeds",
@@ -28,14 +26,24 @@
   "item.bitsandbobs.unfired_clarbon": "Unfired Clarbon",
   "item.bitsandbobs.clarbon": "Clarbon Brick",
   "item.bitsandbobs.the_end.desc": "The End - C418",
-
   "effect.bitsandbobs.fresh": "Fresh",
-
   "block.bitsandbobs.mint_crop": "Mint Leaves",
   "block.bitsandbobs.printing_press": "Printing Press",
   "block.bitsandbobs.mint_extract": "Mint Extract",
-
+  "block.bitsandbobs.beverage_machine": "Beverage Machine",
+  "item.bitsandbobs.beverage_machine": "Beverage Machine",
+  "container.bitsandbobs.beverage_machine": "Beverage Machine",
+  "gui.bitsandbobs.beverage_machine.idle": "Add recipe inputs",
+  "gui.bitsandbobs.beverage_machine.ready": "Drink ready",
+  "gui.bitsandbobs.beverage_machine.paused": "Paused",
+  "gui.bitsandbobs.beverage_machine.cooling": "Cooling",
+  "gui.bitsandbobs.beverage_machine.heating": "Heating",
+  "gui.bitsandbobs.beverage_machine.remaining": "%ss left",
+  "jei.bitsandbobs.beverage_machine.duration": "%s · %ss",
+  "jei.bitsandbobs.beverage_machine.manual_loading": "Fill tanks and add fuel",
   "fluid_type.bitsandbobs.mint_extract": "Mint Extract",
-
-  "creative.bitsandbobs.bits_and_bobs": "Bits and Bobs"
+  "creative.bitsandbobs.bits_and_bobs": "Bits and Bobs",
+  "item.bitsandbobs.drink_container": "Drink Container",
+  "item.bitsandbobs.chocolate_mint_milkshake": "Chocolate Mint Milkshake",
+  "item.bitsandbobs.watermelon_slushie": "Watermelon Slushie"
 }
