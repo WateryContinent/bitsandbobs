@@ -4,6 +4,7 @@ import com.waterycontinent.bitsandbobs.block.ModBlocks;
 import com.waterycontinent.bitsandbobs.effect.ModEffects;
 import com.waterycontinent.bitsandbobs.fluid.ModFluid;
 import com.waterycontinent.bitsandbobs.fluid.ModFluidTypes;
+import com.waterycontinent.bitsandbobs.fluid.MintExtractEffects;
 import com.waterycontinent.bitsandbobs.item.ModCreativeModeTabs;
 import com.waterycontinent.bitsandbobs.item.ModItems;
 import com.waterycontinent.bitsandbobs.sound.ModSounds;
@@ -62,6 +63,7 @@ public class BitsandBobs {
         // Note that this is necessary if and only if we want *this* class (BitsandBobs) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.addListener(MintExtractEffects::onEntityTick);
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);

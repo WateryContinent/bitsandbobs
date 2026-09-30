@@ -1,9 +1,11 @@
 package com.waterycontinent.bitsandbobs.fluid.types;
 
-import com.waterycontinent.bitsandbobs.fluid.ModFluid;
+import com.waterycontinent.bitsandbobs.BitsandBobs;
 import com.waterycontinent.bitsandbobs.fluid.ModFluidTypes;
+import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
@@ -12,10 +14,10 @@ import net.neoforged.neoforge.common.SoundActions;
 import net.neoforged.neoforge.fluids.FluidType;
 
 
-@EventBusSubscriber
+@EventBusSubscriber(modid = BitsandBobs.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class MintExtractFluidType extends FluidType {
 	public MintExtractFluidType() {
-		super(Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(false).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
+		super(Properties.create().fallDistanceModifier(0F).canExtinguish(true).canSwim(false).canDrown(false).supportsBoating(true).canHydrate(false).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
 				.sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 
@@ -33,6 +35,11 @@ public class MintExtractFluidType extends FluidType {
 			@Override
 			public ResourceLocation getFlowingTexture() {
 				return FLOWING_TEXTURE;
+			}
+
+			@Override
+			public ResourceLocation getRenderOverlayTexture(Minecraft minecraft) {
+				return ResourceLocation.parse("bitsandbobs:textures/fluid/mint_still.png");
 			}
 		}, ModFluidTypes.MINT_EXTRACT_TYPE.get());
 	}
