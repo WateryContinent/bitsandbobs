@@ -44,6 +44,8 @@ public class ModCreativeModeTabs {
                      output.accept(ModItems.DRINK_CONTAINER);
                      output.accept(ModItems.CHOCOLATE_MINT_MILKSHAKE);
                      output.accept(ModItems.WATERMELON_SLUSHIE);
+                     output.accept(ModItems.GUMMY_BERRY);
+                     output.accept(ModItems.GUMMY_MINT);
 
                      output.accept(ModBlocks.MINT_CAKE_BLOCK);
                     }).build());

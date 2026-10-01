@@ -12,6 +12,12 @@ public class FoodItem {
     public static final FoodProperties MINT_CANDY = new FoodProperties.Builder().nutrition(1).saturationModifier(0.1f)
             .fast().alwaysEdible().effect(() -> new MobEffectInstance(ModEffects.FRESH, 200), 1f).build();
 
+    public static final FoodProperties BERRY_GUMMY = new FoodProperties.Builder()
+            .nutrition(1).saturationModifier(0.3F).alwaysEdible().build();
+
+    public static final FoodProperties MINT_GUMMY = new FoodProperties.Builder().nutrition(1).saturationModifier(0.1f)
+            .fast().alwaysEdible().effect(() -> new MobEffectInstance(ModEffects.FRESH, 10), 1f).build();
+
     public static final FoodProperties MINT_CAKE_SLICE = new FoodProperties.Builder().nutrition(4).saturationModifier(1f).build();
 
     public static final FoodProperties CHOCOLATE_MINT_MILKSHAKE = new FoodProperties.Builder()

@@ -33,5 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.GELATIN_SHEET.get());
         basicItem(ModItems.GELATIN_POWDER.get());
         basicItem(ModItems.ARIA_MATH_MUSIC_DISC.get());
+        basicItem(ModItems.GUMMY_BERRY.get());
+        basicItem(ModItems.GUMMY_MINT.get());
     }
 }

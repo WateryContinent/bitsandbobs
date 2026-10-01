@@ -34,6 +34,12 @@ public class ModItems {
     public static final DeferredItem<Item> MINT_CANDY = ITEMS.register("mint_candy",
             () -> new MintCandyItem(new Item.Properties().food(FoodItem.MINT_CANDY)));
 
+    public static final DeferredItem<Item> GUMMY_BERRY = ITEMS.register("berry_gummy",
+            () -> new GummyItem(new Item.Properties().food(FoodItem.BERRY_GUMMY)));
+
+    public static final DeferredItem<Item> GUMMY_MINT = ITEMS.register("mint_gummy",
+            () -> new GummyItem(new Item.Properties().food(FoodItem.MINT_GUMMY)));
+
     public static final DeferredItem<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust",
             () -> new Item(new Item.Properties()));
 
