@@ -46,6 +46,7 @@ public class ModBlocks {
 
     // Mint Extract Fluid Block
     public static final DeferredBlock<Block> MINT_EXTRACT = BLOCKS.register("mint_extract", MintExtractBlock::new);
+
     public static final DeferredBlock<BeverageMachineBlock> BEVERAGE_MACHINE = BLOCKS.register("beverage_machine",
             () -> new BeverageMachineBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3.5F).noOcclusion().requiresCorrectToolForDrops()));
 

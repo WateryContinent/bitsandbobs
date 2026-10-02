@@ -119,7 +119,7 @@ repositories {
 
 
 dependencies {
-    implementation "curse.maven:create-328085:7408951"
+    implementation "curse.maven:create-328085:7531776"
     implementation "curse.maven:create-confectionery-531834:6495225"
     implementation "curse.maven:createaddition-439890:7262496"
     implementation "curse.maven:create-dragons-plus-1216624:7231493"

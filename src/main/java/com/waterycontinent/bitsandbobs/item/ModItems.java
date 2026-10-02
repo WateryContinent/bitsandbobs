@@ -63,10 +63,13 @@ public class ModItems {
 
     public static final DeferredItem<BlockItem> BLOCK_OF_CLARBON = ITEMS.register("block_of_clarbon",
             () -> new BlockItem(ModBlocks.BLOCK_OF_CLARBON.get(), new Item.Properties()));
+
     public static final DeferredItem<Item> WET_GELATIN = ITEMS.register("wet_gelatin",
             () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> GELATIN_SHEET = ITEMS.register("gelatin_sheet",
             () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> GELATIN_POWDER = ITEMS.register("gelatin_powder",
             () -> new Item(new Item.Properties()));
 
@@ -84,8 +87,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> DRINK_CONTAINER = ITEMS.register("drink_container",
             () -> new Item(new Item.Properties().stacksTo(16)));
+
     public static final DeferredItem<Item> CHOCOLATE_MINT_MILKSHAKE = ITEMS.register("chocolate_mint_milkshake",
             () -> new BeverageItem(new Item.Properties().stacksTo(1).food(FoodItem.CHOCOLATE_MINT_MILKSHAKE)));
+
     public static final DeferredItem<Item> WATERMELON_SLUSHIE = ITEMS.register("watermelon_slushie",
             () -> new BeverageItem(new Item.Properties().stacksTo(1).food(FoodItem.WATERMELON_SLUSHIE)));
 
